@@ -5,7 +5,7 @@ import java.awt.*;
 public class MinoL1 extends Mino{
 
     public MinoL1(){
-        create(Color.red);
+        create(Color.BLUE);
     }
 
     public void setXY(int x, int y){
@@ -36,6 +36,7 @@ public class MinoL1 extends Mino{
 
         updateXY(1);
     }
+
     public void getDirection2(){
         //
         // * * *
